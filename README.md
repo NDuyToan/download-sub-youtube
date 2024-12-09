@@ -19,34 +19,40 @@
 
 1. Clone repository này về máy:
 
-bash
-git clone [url-repository-của-bạn]
+```bash
+git clone https://github.com/NDuyToan/youtube-subtitle-downloader.git
 cd youtube-subtitle-downloader
+```
 
 2. Cài đặt các thư viện cần thiết:
 
-bash
+```bash
 pip install flask youtube_transcript_api
+```
 
 ## Cấu trúc thư mục
 
+```
 youtube-subtitle-downloader/
 ├── app.py
 ├── templates/
 │ └── index.html
 └── README.md
+```
 
 ## Cách sử dụng
 
 1. Chạy ứng dụng:
-   bash
+
+   ```bash
    python app.py
+   ```
 
 2. Mở trình duyệt web và truy cập:
 
-```
-http://localhost:5000
-```
+   ```
+   http://localhost:5000
+   ```
 
 3. Nhập URL video YouTube và chọn định dạng file muốn tải (SRT hoặc TXT)
 
